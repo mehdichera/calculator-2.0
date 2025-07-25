@@ -1,0 +1,62 @@
+
+
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.calculator{
+   width: 380px;
+   display: flex;
+   flex-direction: column;
+   gap: 13px;
+   background-color: whitesmoke;
+   padding: 20px;
+   
+   border-radius: 30px;
+}
+.display{
+    height: 100px;
+    padding: 15px;
+    background-color: rgb(206, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button{
+   width: calc(300px/4);
+   height: 70px;
+   border-radius: 15px;
+   border: 0;
+}
+.non-math-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
